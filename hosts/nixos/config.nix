@@ -119,7 +119,7 @@
   networking.timeServers = options.networking.timeServers.default ++ [ "pool.ntp.org" ];
 
   # Set your time zone.
-  time.timeZone = "Asia/Seoul";
+  time.timeZone = "Asia/Kolkata";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -211,6 +211,9 @@
     wget
     xdg-user-dirs
     xdg-utils
+    google-chrome
+    vscode
+    discord
 
     fastfetch
     (mpv.override {scripts = [mpvScripts.mpris];}) # with tray
